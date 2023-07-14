@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Register</title>
+            <link rel="stylesheet" href="login.css">
+        </head>
+        <body>
+			
+			<nav>
+            <div class="contact-us">Contact Us</div>
+            <div class="login info" id="login"><p>Login</p></div>
+            <div class="register info" id="register">Register</div>
+            </nav>
+        
+        <div class="nav2">
+            <div class="logo" id="logo">
+                <div class="circle info2"></div>
+                <h1 class="bank info2">BANK</h1>
+            </div>
+        </div>
+        
+        
+        <div class="container" id="cont">
+            <div class="draw">
+                
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; Copyright Bank</p>
+        </div>
+			
+			
+            <form class="login-form" id="form" name="form1" method="post">
+                <h3>LOGIN</h3>
+                <input type="text" id="mail" name="email" placeholder="Email" class="textbox"><br>
+                <input type="password" id="pass" name="password" placeholder="Password" class="textbox"><br>
+                <input type=submit class="button" value="Login" onclick="return validatereg2();"/>
+            </form>
+			
+			
+           <form name="reform" method="post" id="form2">
+            <h1>Register</h1><br>
+            <input type="text" id="fname" name="firstname" placeholder="Enter First Name" class="textbox"><br>
+            <input type="text" id="lname" name="lastname" placeholder="Enter Last Name" class="textbox"><br>
+            <input type="text" id="mail" name="email" placeholder="Enter Your Email" class="textbox"><br>
+            <input type="password" id="pass" name="password" placeholder="Enter Your Password" class="textbox"><br>
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" value="male" name="gender">
+            <label for="male"> Male </label><br>
+            <input type="radio" id="female" value="female" name="gender" >
+            <label for="female" > Female </label><br>
+            <label for="country" class="c" > Country: </label><br>
+            <select id="country" name="country">
+                <option selected disabled>Choose your country</option>
+                <option value="usa" name="country" class="select"> USA </option>
+                <option value="egypt" name="country" class="select"> Egypt </option>
+                <option value="india" name="country" class="select"> India </option>
+                <option value="japan" name="country" class="select"> Japan </option>
+            </select>
+            <input type=submit class="button" value="Register" onclick="return validatereg();"/>
+           </form>
+            
+            <script src="login.js"></script>
+        </body>
+    </html>

@@ -1,0 +1,329 @@
+#form2 , #form
+{
+    background-color: #268239;
+    width:450px;
+    position: absolute;
+    top:53%;
+    margin-left:50%;
+    transform: translate(-50%,-50%);
+    padding:30px;
+    color: white;
+    border-radius: 10px;
+	opacity: 0.9;
+    animation: show 0.3s 1 linear;
+}
+#form2 h1 , #form h3
+{
+    float: left;
+    font-size: 40px;
+    border-color: white;
+    margin-bottom: 10px;
+    margin-left: 117px;
+}
+#form h3
+{
+    margin-left: 123px;
+}
+.textbox
+{
+    width:100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 3px solid white;
+    border-top: none;
+    border-right:none;
+    border-left:none;
+    outline:none;
+    background: none;
+    color:white;
+	
+}
+label
+{
+    font-size: 20px;
+    font-family: times;
+}
+#country
+{
+    padding:8px 12px;
+    border-bottom: 3px solid white;
+    border-top: none;
+    border-right:none;
+    border-left:none;
+    outline:none;
+    background: none;
+    color:white;
+}
+.select
+{
+    color:black;
+}
+a
+{
+    color:white;
+    text-decoration:none;
+    font-size: 20px;
+}
+.button
+{
+    border: 1px#fff;
+    padding:10px;
+    font-size: 20px;
+    border-style: solid;
+    margin-left:10px;
+    background-image: none;
+    background-color: rgba(64, 196, 255,0.1);
+    color:white;
+    cursor: pointer;
+    font-family: times;
+}
+#form .button
+{
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.button:hover
+{
+    background-color: rgba(225,255,255,0.5);
+    padding:10px;
+    color:black;
+}
+#form2
+{
+    display: none;
+}
+*
+{
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    height: 753px;
+    background-color: #F2F6F6;
+    position: relative;
+}
+
+
+nav
+{
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    width: auto;
+    height: 4.5%;
+    background-color: #2C2928;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.contact-us
+{
+    float: left;
+    margin-left: 150px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+.info
+{
+    float: right;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+.login
+{
+    margin-right: 150px;
+    margin-left: 60px;
+    text-align: center;
+    background-color: #2EB44A;
+    width : 100px;
+    height: 43px;
+    margin-top: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.login p
+{
+    margin-top: 5px;
+}
+
+.login:hover
+{
+    background-color: #268239;
+}
+
+.register:hover , .contact-us:hover
+{
+    text-decoration: underline;
+}
+
+
+.nav2
+{
+    top: 4.5%;
+    right: 0%;
+    left: 0%;
+    width: auto;
+    height: 70px;
+    background-color: #F5FAFB;
+    position: absolute;
+    z-index: 1;
+}
+.info2
+{
+    float: left;
+}
+.bank
+{
+    margin-top:15px;
+    margin-left: 5px;
+    margin-right: 80px;
+}
+
+.logo
+{
+    cursor: pointer;
+}
+
+.circle
+{
+    width : 45px;
+    height: 45px;
+    background-color: #2EB44A;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.about , .online , .location
+{
+    width: 200px;
+    height: inherit;
+    text-align: center;
+    background-color: #F6F8F8;
+    transition: all 0.3s ease-in-out;
+}
+
+.about:hover , .online:hover , .location:hover
+{
+    cursor: pointer;
+    background-color: #E5E8E5;
+}
+
+
+.about h4 , .online h4 , .location h4
+{
+    margin: 25px auto 0 auto;
+}
+
+.about , .online
+{
+    border-right: 1px solid #DDE9E9;
+}
+
+.container
+{
+    transition: all 0.3s ease-in-out;
+    width: auto;
+    height: 723px;
+    background-image: url(img1.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.draw
+{
+    width : 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.75;
+    position: absolute;
+    z-index: 0;
+}
+
+.home-caption
+{
+    position: absolute;
+    top: 45%;
+    width: 35%;
+    height: 20%;
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.home-caption h1
+{
+    font-size: 70px;
+}
+.home-caption p
+{
+    font-size: 20px;
+}
+
+.footer
+{
+    position: absolute;
+    background-color: #151515;
+    width: auto;
+    height: 4%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: white;
+}
+
+
+.footer p
+{
+    margin-left: 47%;
+    margin-top: 0.3%;
+}
+
+
+
+
+@keyframes show
+{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 0.8;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

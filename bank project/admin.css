@@ -1,0 +1,437 @@
+*
+{
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    height: 2580px;
+    background-color: #D8D8D8;
+    position: relative;
+}
+
+
+nav
+{
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    width: auto;
+    height: 34px;
+    background-color: #2C2928;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.contact-us
+{
+    float: left;
+    margin-left: 150px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+
+
+.contact-us:hover
+{
+    text-decoration: underline;
+}
+
+
+.nav2
+{
+    top: 34px;
+    right: 0%;
+    left: 0%;
+    width: auto;
+    height: 70px;
+    background-color: #F5FAFB;
+    position: absolute;
+    z-index: 1;
+}
+.info2
+{
+    float: left;
+}
+.bank
+{
+    margin-top:15px;
+    margin-left: 5px;
+    margin-right: 80px;
+}
+
+.logo
+{
+    cursor: pointer;
+}
+
+.circle
+{
+    width : 45px;
+    height: 45px;
+    background-color: #2EB44A;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.about , .online , .location
+{
+    width: 200px;
+    height: inherit;
+    text-align: center;
+    background-color: #F6F8F8;
+    transition: all 0.3s ease-in-out;
+}
+
+.about:hover , .online:hover , .location:hover
+{
+    cursor: pointer;
+    background-color: #E5E8E5;
+}
+
+
+.about h4 , .online h4 , .location h4
+{
+    margin: 25px auto 0 auto;
+}
+
+.about , .online
+{
+    border-right: 1px solid #DDE9E9;
+}
+
+.footer
+{
+    position: absolute;
+    background-color: #151515;
+    width: auto;
+    height: 30px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: white;
+}
+
+
+.footer p
+{
+    margin-left: 47%;
+    margin-top: 0.3%;
+}
+
+.container
+{
+    transition: all 0.3s ease-in-out;
+    width: auto;
+    height: 2580px;
+    background-image: url(img1.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.first , .sec , .thrd
+{
+    top: 105px;
+    right: 0%;
+    left: 0%;
+    width: auto;
+    height: 34px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    padding-top: 40px 0px;
+}
+.first h4
+{
+    margin-top: 7px; 
+}
+
+.draw
+{
+    width : 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.75;
+    position: absolute;
+    z-index: 0;
+}
+
+
+.T
+{
+	position: absolute;
+	color: white;
+	top: 150px;
+	left: 600px;
+	font-size: 50px;
+}
+.F1
+{
+    position: absolute;
+    top: 220px;
+    left: 13%;
+    width: 23%;
+    height: 500px;
+    background-color: #268239;
+    border-radius: 10%;
+    color: white;
+	padding:2%;
+	opacity: 0.8;
+	transition: all 0.2s ease-in-out;
+}
+
+.F2
+{
+    position: absolute;
+    top: 220px;
+    left: 39%;
+    width: 23%;
+    height: 500px;
+    background-color: #268239;
+    border-radius: 10%;
+    color: white;
+	padding:2%;
+	opacity: 0.8;
+	transition: all 0.2s ease-in-out;
+}
+.F3
+{
+    position: absolute;
+    top: 220px;
+    left: 65%;
+    width: 23%;
+    height: 500px;
+    background-color: #268239;
+    border-radius: 10%;
+    color: white;
+	padding:2%;
+	opacity: 0.8;
+	transition: all 0.2s ease-in-out;
+}
+
+.f button
+{
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: black;
+}
+.f button:hover
+{
+    cursor: pointer;
+    background-color: inherit;
+}
+
+.sec
+{
+    top: 750px;
+    height: 50px;
+}
+.sec h4
+{
+    margin-top: 12px; 
+}
+
+.sec-page
+{
+    position: absolute;
+    height: 1000px;
+    width: 1519px;
+    background-color: white;
+    top : 800px
+}
+
+
+.banner
+{
+    position: relative;
+    top: 0;
+    height: 500px;
+    width: auto;
+    background-image: url(img.jpg);
+    background-size: cover;
+}
+
+.options
+{
+    position: relative;
+    top: 25px;
+    left: 22%;
+    width: 60%;
+    height: 100px;
+}
+.op1 , .op2 , .op3 , .op4 , .op5
+{
+    width: 20%;
+    height: 100px;
+    float: left;
+    text-align: center;
+    background-color: #FBFAFA;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.op1 i , .op2 i, .op3 i, .op4 i, .op5 i
+{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.op1 , .op2 , .op3 , .op4
+{
+    border-right: 1px solid #DDE9E9;
+}
+.op1:hover , .op2:hover , .op3:hover , .op4:hover , .op5:hover
+{
+    border-top: 7px solid #2EB44A;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.op1:hover .drop1{display: block;}
+.op1:hover .newcolor{color: #2EB44A;}
+.op2:hover .drop2{display: block;}
+.op2:hover .newcolor{color: #2EB44A;}
+.op3:hover .drop3{display: block;}
+.op3:hover .newcolor{color: #2EB44A;}
+.op4:hover .drop4{display: block;}
+.op4:hover .newcolor{color: #2EB44A;}
+.op5:hover .drop5{display: block;}
+.op5:hover .newcolor{color: #2EB44A;}
+
+
+
+
+img
+{
+    position: absolute;
+    left: 55%;
+    top: 150%;
+}
+
+.online-info
+{
+    position: absolute;
+    left: -10%;
+    top: 220px;
+    float: left;
+    width: 450px;
+    height: 250px;
+    font-size: 20px;
+}
+.online-info h1
+{
+    color: #2EB44A;
+    margin-bottom: 20px;
+}
+.online-info button
+{
+    margin-top: 25px;
+    margin-left: 70px;
+    padding: 10px 20px;
+    background-color: #49B65F;
+    border-radius: 5%;
+    transition: all 0.1s ease-in-out;
+}
+.online-info button:hover{
+    cursor: pointer;
+    background-color: #2EB44A;
+}
+.btn2 , .btn3 , .btn4 , .btn5
+{
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    
+}
+.btn3
+{
+    position: absolute;
+    right: 50px;
+    top: 900px;
+}
+.btn4
+{
+    position: absolute;
+    left: 0;
+    top: 200px;
+    width: 150px;
+}
+.btn2:hover , .btn3:hover , .btn4:hover , .btn5:hover
+{
+    cursor: pointer;
+    background-color: #2EB44A;
+}
+.thrd
+{
+    top: 1800px;
+    height: 50px;
+}
+.thrd h4
+{
+    margin-top: 12px; 
+}
+.thrd-page
+{
+    position: absolute;
+    top: 1850px;
+    height: 700px;
+    width : 1519px;
+}
+
+.location-caption
+{
+    position: absolute;
+    width: 50%;
+    height: 5%;
+    top: 3%;
+    left: 26%;
+    color: white;
+    margin: auto;
+}
+
+.location-caption h1
+{
+    margin-left: 14%;
+}
+
+.googlemap
+{
+	position: absolute;
+    top: 10%;
+    left: 18%;
+    z-index: 1;
+}
+.btn5
+{
+    width : 200px;
+    position: absolute;
+    top: 600px;
+    left: 680px;
+    background-color: #2EB44A;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,227 @@
+*
+{
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    height: 753px;
+    background-color: #F2F6F6;
+    position: relative;
+}
+
+
+nav
+{
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    width: auto;
+    height: 4.5%;
+    background-color: #2C2928;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.contact-us
+{
+    float: left;
+    margin-left: 150px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+
+
+
+.contact-us:hover
+{
+    text-decoration: underline;
+}
+
+
+.nav2
+{
+    top: 4.5%;
+    right: 0%;
+    left: 0%;
+    width: auto;
+    height: 70px;
+    background-color: #F5FAFB;
+    position: absolute;
+    z-index: 1;
+}
+.info2
+{
+    float: left;
+}
+.bank
+{
+    margin-top:17px;
+    margin-left: 5px;
+    margin-right: 80px;
+}
+
+.logo
+{
+    cursor: pointer;
+}
+
+.circle
+{
+    width : 45px;
+    height: 45px;
+    background-color: #2EB44A;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.online , .location
+{
+    width: 200px;
+    height: inherit;
+    text-align: center;
+    background-color: #F6F8F8;
+    transition: all 0.3s ease-in-out;
+}
+
+.online:hover , .location:hover
+{
+    cursor: pointer;
+    background-color: #E5E8E5;
+}
+
+
+.online h4 , .location h4
+{
+    margin: 25px auto 0 auto;
+}
+
+.online
+{
+    border-right: 1px solid #DDE9E9;
+}
+
+
+.container
+{
+    transition: all 0.3s ease-in-out;
+    width: auto;
+    height: 723px;
+    background-image: url(img1.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.draw
+{
+    width : 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.75;
+    position: absolute;
+    z-index: 0;
+}
+
+
+.footer
+{
+    position: absolute;
+    background-color: #151515;
+    width: auto;
+    height: 4%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: white;
+}
+
+
+.footer p
+{
+    margin-left: 47%;
+    margin-top: 0.3%;
+}
+
+.T
+{
+	position: absolute;
+	color: white;
+	top: 130px;
+	left: 600px;
+	font-size: 50px;
+}
+.F1
+{
+    position: absolute;
+    top: 28%;
+    left: 13%;
+    width: 23%;
+    height: 60%;
+    background-color: #268239;
+    border-radius: 10%;
+    color: white;
+	padding:2%;
+	opacity: 0.8;
+	transition: all 0.2s ease-in-out;
+}
+
+.F2
+{
+    position: absolute;
+    top: 28%;
+    left: 39%;
+    width: 23%;
+    height: 60%;
+    background-color: #268239;
+    border-radius: 10%;
+    color: white;
+	padding:2%;
+	opacity: 0.8;
+	transition: all 0.2s ease-in-out;
+}
+.F3
+{
+    position: absolute;
+    top: 28%;
+    left: 65%;
+    width: 23%;
+    height: 60%;
+    background-color: #268239;
+    border-radius: 10%;
+    color: white;
+	padding:2%;
+	opacity: 0.8;
+	transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

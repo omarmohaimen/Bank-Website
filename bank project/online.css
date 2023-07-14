@@ -1,0 +1,319 @@
+*
+{
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    height: 1150px;
+    background-color: white;
+    position: relative;
+}
+
+
+nav
+{
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    width: auto;
+    height: 34px;
+    background-color: #2C2928;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.contact-us
+{
+    float: left;
+    margin-left: 150px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+
+
+.contact-us:hover
+{
+    text-decoration: underline;
+}
+
+
+.nav2
+{
+    top: 34px;
+    right: 0%;
+    left: 0%;
+    width: auto;
+    height: 70px;
+    background-color: #F5FAFB;
+    position: absolute;
+    z-index: 1;
+}
+.info2
+{
+    float: left;
+}
+.bank
+{
+    margin-top:15px;
+    margin-left: 5px;
+    margin-right: 80px;
+}
+
+.logo
+{
+    cursor: pointer;
+}
+
+.circle
+{
+    width : 45px;
+    height: 45px;
+    background-color: #2EB44A;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.about , .location
+{
+    width: 200px;
+    height: inherit;
+    text-align: center;
+    background-color: #F6F8F8;
+    transition: all 0.3s ease-in-out;
+}
+
+.about:hover , .location:hover
+{
+    cursor: pointer;
+    background-color: #E5E8E5;
+}
+
+
+.about h4 , .location h4
+{
+    margin: 25px auto 0 auto;
+}
+
+.about 
+{
+    border-right: 1px solid #DDE9E9;
+}
+
+.banner
+{
+    position: relative;
+    top: 104px;
+    height: 500px;
+    width: auto;
+    background-image: url(img.jpg);
+    background-size: cover;
+}
+
+.options
+{
+    position: relative;
+    top: 25px;
+    left: 22%;
+    width: 60%;
+    height: 100px;
+}
+.op1 , .op2 , .op3 , .op4 , .op5
+{
+    width: 20%;
+    height: 100px;
+    float: left;
+    text-align: center;
+    background-color: #FBFAFA;
+    animation: move 0.5s 1 linear;
+    transition: all 0.5s ease-in-out;
+}
+
+.op2 {animation-delay: 0.1s}
+.op3 {animation-delay: 0.2s}
+.op4 {animation-delay: 0.3s}
+.op5 {animation-delay: 0.4s}
+
+
+.op1 i , .op2 i, .op3 i, .op4 i, .op5 i
+{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.op1 , .op2 , .op3 , .op4
+{
+    border-right: 1px solid #DDE9E9;
+}
+.op1:hover , .op2:hover , .op3:hover , .op4:hover , .op5:hover
+{
+    border-top: 7px solid #2EB44A;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.drop1 ,.drop2 ,.drop3 , .drop4 , .drop5
+{
+    position: absolute;
+    top: 120px;
+    left: -150px;
+    width: 1200px;
+    height: 300px;
+    background-color: #F0F0F0;
+    display: none;
+    z-index: 1;
+    animation: move2 0.5s 1 linear;
+    transform-origin:top;
+    transition: all 0.3s ease-in-out;
+}
+.drop2 , .drop3 ,.drop4,.drop5
+{
+    position: absolute;
+    left: -150px;
+}
+.drop1 h1 ,.drop2 h1 , .drop3 h1 , .drop4 h1,.drop5 h1
+{
+    color: #2EB44A;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.drop1 p, .drop2 p , .drop3 p , .drop4 p,.drop5 p
+{
+    font-size: 15px;
+}
+.right
+{
+    float: right;
+    margin-top: 50px;
+    margin-right: 120px;
+}
+.left
+{
+    float: left;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.op1:hover .drop1{display: block;}
+.op1:hover .newcolor{color: #2EB44A;}
+.op2:hover .drop2{display: block;}
+.op2:hover .newcolor{color: #2EB44A;}
+.op3:hover .drop3{display: block;}
+.op3:hover .newcolor{color: #2EB44A;}
+.op4:hover .drop4{display: block;}
+.op4:hover .newcolor{color: #2EB44A;}
+.op5:hover .drop5{display: block;}
+.op5:hover .newcolor{color: #2EB44A;}
+
+
+
+
+img
+{
+    position: absolute;
+    left: 55%;
+    top: 150%;
+}
+
+.online-info
+{
+    position: absolute;
+    left: -10%;
+    top: 220px;
+    float: left;
+    width: 450px;
+    height: 250px;
+    font-size: 20px;
+}
+.online-info h1
+{
+    color: #2EB44A;
+    margin-bottom: 20px;
+}
+.online-info button
+{
+    margin-top: 25px;
+    margin-left: 70px;
+    padding: 10px 20px;
+    background-color: #49B65F;
+    border-radius: 5%;
+    transition: all 0.1s ease-in-out;
+}
+.online-info button:hover{
+    cursor: pointer;
+    background-color: #2EB44A;
+}
+
+.footer
+{
+    position: absolute;
+    background-color: #151515;
+    width: auto;
+    height: 30px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: white;
+}
+
+
+.footer p
+{
+    margin-left: 47%;
+    margin-top: 0.3%;
+}
+
+
+@keyframes move
+{
+    from{
+        transform: translatey(500px)
+    }
+    to{
+        transform: translatey(0px)
+    }
+}
+
+@keyframes move2
+{
+    from{
+        transform: rotateX(90deg)
+    }
+    to{
+        transform: rotateX(0deg)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
